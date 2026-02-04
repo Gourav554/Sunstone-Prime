@@ -11,7 +11,7 @@ public class DicemalToBinary{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int bn=1;
+        int bn=0;
         while(n>0){
             int rem =n%2;
             bn =bn*10 +rem;
