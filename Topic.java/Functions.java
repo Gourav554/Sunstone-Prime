@@ -5,10 +5,10 @@ public class Functions {
                 int t= a%b;
                 a=b;
                 b=t;
-                System.out.println(a);
+            }
                 return a;
             }
-        }
+        
     public static void main(String[]args) {
                     Scanner sc = new Scanner(System.in);
             int a = sc.nextInt();
