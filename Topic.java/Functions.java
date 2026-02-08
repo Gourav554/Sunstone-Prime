@@ -1,5 +1,5 @@
 import java.util.*;
-public class Functions {
+public class Functions {  // Calling ke liye
      public static int Gcd (int a,int b){
             while(b!=0){
                 int t= a%b;
