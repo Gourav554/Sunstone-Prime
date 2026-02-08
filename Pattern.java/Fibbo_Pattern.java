@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class  Fibbo_Pattern {
     public static int Fibbonasi(int G){
         if(G==0 || G==1){
