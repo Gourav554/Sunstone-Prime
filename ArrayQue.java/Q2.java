@@ -1,4 +1,4 @@
-import java.util.*;   //Sum of all Elements in Array
+import java.util.*;   //Sum of a all Elements in Array
 public class Q2
  {
     public static void main(String[] args) {
