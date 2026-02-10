@@ -1,6 +1,5 @@
 import java.util.*;
-import java.util.Collections;
-
+import java.util.Collection;
 public class Arraylist {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
@@ -23,6 +22,11 @@ public class Arraylist {
         System.out.println(list.reversed());    //reverse element
         Collections.sort(list);       //sorting ke liye
         System.out.println(list);
+
+         Collections.sort(list, Collections.reverseOrder()); //reverse sorting ke liye
+        System.out.println(list);
+        
+
     }
     
 }
