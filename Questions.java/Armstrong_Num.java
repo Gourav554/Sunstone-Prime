@@ -6,13 +6,13 @@ public class Armstrong_Num {
         int n = sc.nextInt();
         int originalNum = n;
         int sum = 0;
-        for(int i=0;i<=n;i++){
+        while (n>0)  {
             int digit =n%10;
             sum += digit*digit*digit ;
             n =n/10;
             // System.out.println(sum);
         } System.out.println(sum);
-
+         
         if(originalNum==sum){
             System.out.println("Armstrong No.");
         }  else {
