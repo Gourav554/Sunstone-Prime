@@ -23,11 +23,30 @@ public class Arraylist {
         Collections.sort(list);       //sorting ke liye
         System.out.println(list);
 
-         Collections.sort(list, Collections.reverseOrder()); //reverse sorting ke liye
+         Collections.sort(list, Collections.reverseOrder()); //reverse sorting ke liye asscending order mai
         System.out.println(list);
         
-
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
