@@ -18,8 +18,6 @@ public class Armstrong_Num {
         }  else {
             System.out.println("Not a Armstrong No.");
         }
-
-        
     }
 }
 
