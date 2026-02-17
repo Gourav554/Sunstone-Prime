@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Doubt {
+public class Q16 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class Doubt {
             int term = 3 * i + 2;
 
             if (term % N2 != 0) {
-                System.out.print(term + " ");
+                System.out.println(term + " ");
                 count++;
             }
         }  
