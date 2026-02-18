@@ -5,36 +5,34 @@ public class SelectionSort {
 
         Scanner sc = new Scanner(System.in);
 
-        // Input size
+        
         int n = sc.nextInt();
 
-        // Declare array
+        
         int[] arr = new int[n];
 
-        // Take input
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
 
-        // Selection Sort
+        
         for (int i = 0; i < n - 1; i++) {
 
             int min = i;
 
-            // Find minimum element index
+            
             for (int j = i + 1; j < n; j++) {
                 if (arr[j] < arr[min]) {
                     min = j;
                 }
             }
 
-            // Swap after inner loop
+           
             int temp = arr[i];
             arr[i] = arr[min];
             arr[min] = temp;
         }
 
-        // Print sorted array
         System.out.println("Sorted array through selection sort");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
