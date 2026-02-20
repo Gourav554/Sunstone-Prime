@@ -18,8 +18,6 @@ public class  Fibbo_Pattern {
             }
             System.out.println();
         }
-        
-    }
 
-    
+    }
 }
