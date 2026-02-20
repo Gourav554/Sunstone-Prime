@@ -18,6 +18,5 @@ public class Q6 {
             max++;
         }
 
-        sc.close();
     }
 }
