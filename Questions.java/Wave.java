@@ -12,7 +12,6 @@ public class Wave {
             arr[i][j] =sc.nextInt();
         }
     }
-       
        for(int j=0;j<c;j++){
         if(j%2==0){
             for(int i=0;i<r;i++){
@@ -25,7 +24,6 @@ public class Wave {
                 }
             }
         }
-
        }
     }
     
