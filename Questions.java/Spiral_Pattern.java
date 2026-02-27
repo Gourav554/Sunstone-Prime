@@ -40,8 +40,7 @@ public class Spiral_Pattern {
             }
             left++;
         }
-    }
-
+        }
     
     }
 }
