@@ -1,5 +1,5 @@
 import java.util.*;   //Sum of a all Elements in Array
-public class Q2
+public class sum
  {
     public static void main(String[] args) {
         int arr[]= {8,31,-21,4,33};
