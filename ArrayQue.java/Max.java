@@ -1,5 +1,5 @@
 import java.util.*;
-public class Q1 {    //MAXIMUM
+public class Max{    //MAXIMUM
     public static void main(String[] args) {
         int arr[]= {8,31,-21,48,33};
 
