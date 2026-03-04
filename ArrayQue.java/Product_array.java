@@ -11,9 +11,7 @@ public class Product_array {
         for(int i = 0; i < n; i++){
             nums[i] = sc.nextLong();
         }
-
         long ans[] = new long[n];
-
         ans[0] = 1;
         for(int i = 1; i < n; i++){
             ans[i] = ans[i-1] * nums[i-1];
