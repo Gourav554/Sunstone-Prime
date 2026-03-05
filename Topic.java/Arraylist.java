@@ -10,6 +10,8 @@ public class Arraylist {
         list.add(50);
          int Max = Collections.max(list);
          int min = Collections.min(list);
+
+         
         
         System.out.println(list); //Size
         System.out.println(list.remove(4));  //Remove
