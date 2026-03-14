@@ -1,7 +1,7 @@
 
 // code ko Modify karne ke liye String builder ka use hota hai Add,delete and changes
 import java.util.*;
-public class Strings_Builder {
+public class Strings_Build {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("jaiswal");
         System.out.println(sb);
