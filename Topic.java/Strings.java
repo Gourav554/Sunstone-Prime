@@ -3,6 +3,7 @@ public class Strings {
     public static void main(String[] args) {
       //  String name = "hello";
          String fullname ="hello bro";
+         String sort = "hay";
          Scanner sc =new Scanner(System.in);
          String name = sc.next();      // Single word input ke liye without line
       //  String name = sc.nextLine();      puri line print karwani ho tho with line 
@@ -13,4 +14,5 @@ public class Strings {
             System.out.print(name.charAt(i));
           }
         }
+
       }
