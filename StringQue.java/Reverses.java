@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Reverses {
     
     public static void main(String[] args) {
@@ -9,6 +11,16 @@ public class Reverses {
        
     }
    System.out.println(rev);
+
+   
+//                      INBUILT FUNCTION
+//    Scanner sc = new Scanner(System.in);
+
+//         String str = sc.nextLine();
+
+//         String reversed = new StringBuilder(str).reverse().toString();
+
+//         System.out.println(reversed);
 
     }
     
