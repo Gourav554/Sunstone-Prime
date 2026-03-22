@@ -26,9 +26,9 @@ public class Arraylist {
         Collections.sort(list);       //sorting ke liye
         System.out.println(list);
 
-         Collections.sort(list, Collections.reverseOrder()); //reverse sorting ke liye asscending order mai
-        System.out.println(list);
-
+// Descending
+Collections.sort(list, Collections.reverseOrder());
+System.out.println(list); // [8, 5, 2, 1]
         
         
     }
