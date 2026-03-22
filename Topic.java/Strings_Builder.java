@@ -29,6 +29,7 @@ public class Strings_Builder {
        //Reverse ke liye
         String reversed = new StringBuilder(sb).reverse().toString();
         System.out.println(reversed);
+        System.out.println(sb.reverse()); // reverse karne ke baad wapas original string mai aayega
     }
     
 }
