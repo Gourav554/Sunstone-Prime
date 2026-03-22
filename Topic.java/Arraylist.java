@@ -11,7 +11,7 @@ public class Arraylist {
          int Max = Collections.max(list);
          int min = Collections.min(list);
 
-         int Decimal = Collections.binarySearch(list, 50);
+        int Decimal = Collections.binarySearch(list, 50);
         
         System.out.println(list); //Size
         System.out.println(list.remove(4));  //Remove
@@ -30,8 +30,7 @@ public class Arraylist {
         System.out.println(list);
 
         
-          Collections.sort(list); //sorting in ascending order
-          System.out.println(list);
+        
     }
     
 }
