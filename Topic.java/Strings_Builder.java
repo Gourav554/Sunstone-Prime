@@ -5,6 +5,10 @@ public class Strings_Builder {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("jaiswal");
         System.out.println(sb);
+
+        // StringBuilder sb = new StringBuilder(input);
+
+        // System.out.println(sb);
         //char  at Index position
         System.out.println(sb.charAt(0));
 
