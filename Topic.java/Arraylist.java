@@ -8,10 +8,10 @@ public class Arraylist {
         list.add(30);
         list.add(40);
         list.add(50);
-         int Max = Collections.max(list);
-         int min = Collections.min(list);
+          int Max = Collections.mmax(list);
+        //  int min = Collections.min(list);
 
-        int Decimal = Collections.binarySearch(list, 50);
+       // int Decimal = Collections.binarySearch(list, 50);
         
         System.out.println(list); //Size
         System.out.println(list.remove(4));  //Remove
@@ -23,11 +23,11 @@ public class Arraylist {
         System.out.println(list);    //update element
        
         System.out.println(list.reversed());    //reverse element
-        Collections.sort(list);       //sorting ke liye
+       // Collections.sort(list);       //sorting ke liye
         System.out.println(list);
 
 // Descending
-Collections.sort(list, Collections.reverseOrder());
+//Collections.sort(list, Collections.reverseOrder());
 System.out.println(list); // [8, 5, 2, 1]
         
         
