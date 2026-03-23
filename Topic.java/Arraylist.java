@@ -23,6 +23,8 @@ public class Arraylist {
         System.out.println(list);    //update element
        
         System.out.println(list.reversed());    //reverse element
+       //  Collections.reverse(list.subList(0, 3));
+
        // Collections.sort(list);       //sorting ke liye
         System.out.println(list);
 
