@@ -7,6 +7,7 @@ public class Strings {
          Scanner sc =new Scanner(System.in);
          String name = sc.next();      // Single word input ke liye without line
       //  String name = sc.nextLine();      puri line print karwani ho tho with line 
+      
           System.out.println(name); 
           System.out.println(name.length());
 
