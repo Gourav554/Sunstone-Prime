@@ -1,5 +1,8 @@
 package OOPS;
 
 public class Object {
+    public static void main(String[] args) {
+        
+    }
     
 }
