@@ -1,5 +1,6 @@
 import java.util.*;
 public class TwoD_Array {
+// Dynamic Arrays
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
