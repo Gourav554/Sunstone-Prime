@@ -3,7 +3,7 @@ class Animal {
         System.out.println("Animal makes sound");
     }
 }
-
+//Redirecting the Inheritance class to Method_overriding class
 class Dog extends Animal {
     @Override
     void sound() {
