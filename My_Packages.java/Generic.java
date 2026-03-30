@@ -1,17 +1,17 @@
-import java.util.*;
+
+    class Test {
+    public <T> void print(T data) {
+        System.out.println(data);
+    }
+}
+
 public class Generic {
-    // String,water container;   Only String data store kar sakte hain
+    public static void main(String[] args) {
 
-    //Object class is top most Parent class of all java classes, isliye Object data type se hum kisi bhi type ka data store kar sakte hain, lekin type safety nahi hoti
-    Object container;  // Object data type se hum kisi bhi type ka data store kar sakte hain, lekin type safety nahi hoti
+        Test t = new Test();
 
-public void box(Object item) {
-    this.container = item;
-}
-
-public Object getValue(){
-    return this.container;
-}
-
-
+        t.print("Hello");
+        t.print(100);
+        t.print(12.5);
+    }
 }
