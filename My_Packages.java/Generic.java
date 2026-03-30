@@ -9,7 +9,7 @@ public class Generic {
 
 
 
-  // Another Liklne se 
+  // Another Liklne se hum ek aur list bana sakte hain jisme hum alag type ka data store kar sakte hain,
   list anotherlist = new Arraylist();
   anotherlist.add("Jaiswal");
 
