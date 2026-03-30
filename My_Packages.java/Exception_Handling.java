@@ -8,3 +8,8 @@ public class Exception_Handling {
     }
     
 }
+
+
+// Exception Handling programming ka ek important concept hai jo runtime 
+// errors (exceptions) ko handle karne ke liye use hota hai, taaki program crash
+//  na ho aur smoothly chale.
