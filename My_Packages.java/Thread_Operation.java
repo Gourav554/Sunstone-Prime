@@ -13,8 +13,8 @@
 }
 
 public class Thread_Operation {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) {   //Program execution yahan se start hota hai
+        //2 alag threads banaye (t1, t2)
         MyThread t1 = new MyThread();
         MyThread t2 = new MyThread();
 
