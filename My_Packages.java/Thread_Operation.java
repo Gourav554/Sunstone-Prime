@@ -1,11 +1,12 @@
-    class MyThread extends Thread {
-    public void run() {
+    class MyThread extends Thread {   //  class Thread ban Jyegi
+    public void run() {   // thread ka main kaam (task) hota hai
         try {
             for (int i = 1; i <= 3; i++) {
-                System.out.println(Thread.currentThread().getName() + " is running: " + i);
+                System.out.println(Thread.currentThread().getName() + " is running: " + i);   // jo thread abhi run ho raha hai
+// getName() → uska naam return karta hai
                 Thread.sleep(1000); // sleep for 1 second
             }
-        } catch (InterruptedException e) {
+        } catch (InterruptedException e) {  //Agar thread interrupt ho jaye (sleep ke time), toh ye handle karega
             System.out.println("Thread interrupted");
         }
     }
