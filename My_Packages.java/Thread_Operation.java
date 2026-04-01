@@ -18,6 +18,8 @@ public class Thread_Operation {
         MyThread t1 = new MyThread();
         MyThread t2 = new MyThread();
 
+        // Threads ko custom naam diya
+        // 👉 Output me ye naam dikhega
         t1.setName("Thread-1");
         t2.setName("Thread-2");
 
@@ -36,6 +38,7 @@ public class Thread_Operation {
         System.out.println("Is t1 alive? " + t1.isAlive());
         System.out.println("Is t2 alive? " + t2.isAlive());
 
+        // Jab main thread ka kaam khatam ho jata hai
         System.out.println("Main thread finished");
     }
 }
