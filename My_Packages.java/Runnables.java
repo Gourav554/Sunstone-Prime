@@ -15,7 +15,6 @@ public class Runnables{
         thread1.start();
     }
 }
-
 // Runnable ek interface hai
 // Isme sirf ek method hota hai: run()
 // Aap apni class me logic likhte ho run() ke andar

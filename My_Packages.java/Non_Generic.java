@@ -8,6 +8,7 @@ public class Non_Generic {
   list.add("Gourav");
 
 
+  
   // Another Liklne se hum ek aur list bana sakte hain jisme hum alag type ka data store kar sakte hain,
   ArrayList anotherlist = new ArrayList<>();
   anotherlist.add("Jaiswal");
