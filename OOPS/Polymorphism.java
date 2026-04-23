@@ -1,4 +1,5 @@
 // Run-Time Polymorphism (Method Overriding)
+import java.util.*;
 class Animal {
     void sound() {
         System.out.println("Animal makes sound");
