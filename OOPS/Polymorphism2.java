@@ -1,4 +1,5 @@
 // Compile-Time Polymorphism (Method Overloading)
+import java.util.*;
 class MathOperation {
     int add(int a, int b) {
         return a + b;
