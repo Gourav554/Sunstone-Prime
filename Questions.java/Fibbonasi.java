@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class Fibbonasi {
     public static int Fibbonasi(int n){
         if(n==0 || n==1){
