@@ -8,6 +8,7 @@ public class Recursion {
         System.out.println("Factorial of " + number + " is: " + result);
     }
 
+    
     // Recursive method to calculate factorial
     public static int factorial(int n) {
         if (n == 0) {
