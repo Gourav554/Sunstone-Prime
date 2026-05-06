@@ -8,13 +8,16 @@ public class Strings_Build {
         //char  at Index position
         System.out.println(sb.charAt(0));
 
+
         // Change and set char At index position
        sb.setCharAt(2,'p');
        System.out.println(sb);
 
+
        // Insert char 
        sb.insert(1,'k');
        System.out.println(sb);
+
 
        //Delete char
        sb.delete(0,1);    //end-1 pe khatam hoga
@@ -22,6 +25,7 @@ public class Strings_Build {
         System.out.println(sb.length());
        //
 
+       
        //Reverse ke liye
         String reversed = new StringBuilder(sb).reverse().toString();
         System.out.println(reversed);
