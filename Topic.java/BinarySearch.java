@@ -1,3 +1,5 @@
+import java.util.Arrays;
+import java.util.Scanner;
 public static void main String args[] {
     int arr[] = {5,8,9,6,4};
     int target = 9;
