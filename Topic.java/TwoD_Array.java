@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Arrays;
 public class TwoD_Array {
 // Dynamic Arrays
 
