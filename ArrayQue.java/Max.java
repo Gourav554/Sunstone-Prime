@@ -8,7 +8,8 @@ public class Max{    //MAXIMUM
         if(arr[i]>max){
             max=arr[i];
         }
-        //System.out.println(arr[i+1]);
+        System.out.println(arr[i+1]);
        }
        System.out.println(max);
     }}
+    
